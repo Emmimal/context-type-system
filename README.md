@@ -6,7 +6,7 @@ A pure-Python runtime layer that assigns explicit types to AI agent context — 
 
 Most agent pipelines flatten instructions, retrieved documents, memory, and tool output into one string before it ever reaches the model. Once it's a string, a tool result can read like an instruction and nothing stops it. This library keeps context typed and provenance-tracked right up until the last possible moment, so that specific class of bug gets caught by a runtime check instead of an editor squinting at five thousand tokens.
 
-Read the full write-up on Towards Data Science → [AI Agents Don’t Need More Context — They Need Typed Context](https://towardsdatascience.com/author/emmimalp-alexander/)
+Read the full write-up on Towards Data Science → [AI Agents Don’t Need More Context — They Need Typed Context](https://towardsdatascience.com/author/emmimalp.alexander/)
 
 
 ## What It Does
